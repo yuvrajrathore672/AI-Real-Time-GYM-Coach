@@ -1,6 +1,11 @@
 # 💪 AI Real-Time GYM Coach
 
 > A real-time AI-powered fitness coach that tracks your exercise form through your webcam, counts reps, and delivers live voice feedback — right in your browser.
+
+![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.54-FF4B4B?logo=streamlit&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10-00C7B7?logo=google&logoColor=white)
+![Groq](https://img.shields.io/badge/LLM-Groq-orange)
 ---
 
 ## 🔗 Live Demo
@@ -11,10 +16,6 @@
 | 🚀 Main App | [realtime-ai-gymcoach.streamlit.app](https://realtime-ai-gymcoach.streamlit.app/) |
 
 ---
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.54-FF4B4B?logo=streamlit&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10-00C7B7?logo=google&logoColor=white)
-![Groq](https://img.shields.io/badge/LLM-Groq-orange)
 
 ## ✨ Features
 
@@ -83,7 +84,7 @@ AI-Real-Time-GYM-Coach/
 |---|---|
 | Frontend / UI | Streamlit + WebRTC |
 | Pose Estimation | MediaPipe |
-| LLM Coaching | Groq (`llama` / `gemma` models) |
+| LLM Coaching | Groq (`llama` model) |
 | Text-to-Speech | gTTS |
 | Data Persistence | SQLite via Pandas |
 | Landing Page | Netlify (static HTML/CSS) |
@@ -126,7 +127,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request f
 [GitHub](https://github.com/yuvrajrathore672)
 
 ---
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
